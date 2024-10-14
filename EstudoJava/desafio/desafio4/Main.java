@@ -6,7 +6,9 @@ public class Main {
         NinjaBasico naruto = new NinjaBasico("Rasengan",18,"Naruto Uzumaki",TipoDeHabilidade.NINJUTSU);
         naruto.mostrarInformacoes();
         naruto.executarHabilidades();
+        
         System.out.println("============================================================");
+        
         NinjaAvancado madara = new NinjaAvancado("Chama do dragao",200,"Madara Uchiha",TipoDeHabilidade.NINJUTSU,"Rinnegan!");
         madara.mostrarInformacoes();
         madara.executarHabilidades();
